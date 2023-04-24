@@ -1,0 +1,132 @@
+body {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+}
+
+/* BACKGROUND------------------------ */
+
+body img {
+  position: relative;
+}
+
+.imgtop {
+  bottom: 400px;
+}
+.imgbtn {
+  top: 500px;
+}
+
+
+/* MAIN COMPONENT------------------------ */
+
+.main_component {
+    width: 450px;
+    height: 450px;
+    z-index: 1;
+    position: absolute;
+  }
+
+/* TOP COMPONENT------------------------ */
+
+.user {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.bg {
+  background-image: url(images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.name {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.text {
+  padding-top: 65px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  color: hsl(229, 23%, 23%);
+}
+
+.text span {
+  padding-left: 5px;
+  color: hsl(227, 10%, 46%);
+  font-weight: 500;
+}
+
+.location {
+  margin: 0;
+  font-size: 15px;
+  color: hsl(227, 10%, 46%);
+}
+
+.user img {
+  width: 25%;
+  position: absolute;
+  align-self: center;
+  bottom: 29%;
+  border-radius: 50%;
+  border: solid 10px rgb(255, 255, 255);
+  background-color: white;
+}
+
+
+/* BOTTOM COMPONENT------------------------ */
+
+.userdata {
+  background-color: rgb(255, 255, 255);
+  border-top: solid 1px hsl(0, 2%, 83%);
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 100%;
+  height: 30%;
+}
+
+.followers {
+  text-align: center;
+}
+
+.likes {
+  text-align: center;
+}
+
+.photos {
+  text-align: center;
+}
+
+.num {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.userdatainfo {
+  font-size: 12px;
+  color: hsl(227, 10%, 46%);
+}
